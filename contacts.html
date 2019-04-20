@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html" harset="utf-8">
+        <!--通过为viewport meta标签添加user-scalable=no可以禁用其缩放（zooming）功能-->
+        <link href="bootstrap-3.2.0-dist/css/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            .BGhome{
+                background: url(img/contacts/home.png) no-repeat 0 0;
+            }
+            .BGphone{
+                background: url(img/contacts/phone.png) no-repeat 0 0;
+            }
+            .BGmail{
+                background: url(img/contacts/mail.png) no-repeat 0 center;
+                height: 100%;
+            }
+            .BGhome,.BGphone,.BGmail{
+                padding-left: 70px;
+            }
+            form .form-control{
+                background-color: #EFEFEF;
+            }
+            .mid3icons>div{
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+<!------------------------------------------------------------------------------------------------------------->
+        <!----------------------------------header------------------------------------------------------->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand sr-only" href="#">Brand</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav text-center">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="cars.html">Cars</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li class="active"><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!----------------------------------body------------------------------------------------------->
+        <div class="container">
+            <p class="h3 colorRed">How to Find Us</p>
+            <div style="width:100%;height:300px;background:#B1CFFE;"><p style="padding:10% 45%;">我是GoogleMAP</p></div>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi. Cum sociis natoq penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla dui. Fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna. Sed laoreet aliquam leo.</p>
+            <div class="row mid3icons">
+                <div class="col-sm-3 BGhome">
+                    <p>The Company Name Inc.</p>
+                    <p>8901 Marmora Road,Glasgow, D04 89GR.</p>
+                </div>
+                <div class="col-sm-3 BGphone">
+                    <p>Freephone:+1 800 559 6580</p>
+                    <p>Telephone:+1 800 603 6035</p>
+                    <p>FAX:+1 800 889 9898</p>
+                </div>
+                <div class="col-sm-3 BGmail HoverColor">
+                    <p>Email:<a href="#" class="colorRed">mail@demolink.org</a></p>
+                </div>
+            </div>
+            <p class="colorRed h3">Contact Info</p>
+            <div class="row">
+                <div class="col-sm-6">
+                    <form>
+                        <div class="form-group"><input type="text" class="form-control input-lg" placeholder="Name"></div>
+                        <div class="form-group"><input type="email" class="form-control input-lg" placeholder="E-mail"></div>
+                        <div class="form-group"><input type="text" class="form-control input-lg" placeholder="phone"></div>
+                    </form>
+                </div>
+                <form>
+                    <div class="col-sm-6"><textarea class="form-control" rows="8" placeholder="Message"></textarea></div>
+                </form>
+            </div>
+            <p><a href="#" class="btn btn-lg pull-right" style="margin:10px;">send message</a></p>
+        </div>
+        <!----------------------------------footer------------------------------------------------------->
+        <div class="container-fluid HoverColor" id="footer1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="h3">Our Company</p>
+                        <p>
+                            Herem ipsum dolor sitertolo moleto mo ametteturing elit. In mollis eraterimer mattis neque facilisis, sit ametero tolo ultricies erat rutr. Crasisis nullat viverra auctora sodales.felis, quis malesuadah odio ut velit. Proin pharetra luctus diam, a sceleriteter werto sque eros convallis accumsan
+                        </p>
+                    </div>
+                    <div class="col-sm-2">
+                        <p class="h3">Useful Info</p>
+                        <a href="#">Berem ipsum dolor</a><br>
+                        <a href="#">Ametteturing elitn mollis</a><br>
+                        <a href="#">Mattis neque facilisis</a><br>
+                        <a href="#">Ultricies erat rutr rerasis</a><br>
+                        <a href="#">Viverra auctora sodales</a><br>
+                    </div>
+                    <div class="col-sm-2">
+                        <p class="h3">Our Fleet</p>
+                        <p>
+                            <a href="#">Terem ipsum</a><br>
+                            <a href="#">Smetteturing elitn</a><br>
+                            <a href="#">Imattis neque facilis</a><br>
+                            <a href="#">Ricies erat ruasisis null</a><br>
+                            <a href="#">Et viverra auctora</a>
+                        </p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="h3">Contacts</p>
+                        <p><span class="glyphicon glyphicon-home"></span>8901 Marmora Road, Glasgow, D04 89GR</p>
+                        <p><span class="glyphicon glyphicon-earphone"> &#43;1 (800) 123 9876</span></p>
+                        <p><span class="glyphicon glyphicon-send"></span><a href="#">info@demolink.org</a></p>
+                        <p><span class="glyphicon glyphicon-envelope"></span><a href="#">www.demolink.org</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid HoverColor">
+            <div class="container h4" id="footer2">
+                TAXI &copy; 2014 <a href="#">Privacy policy</a>
+            </div>
+        </div>
+
+<!------------------------------------------------------------------------------------------------------------->
+      <script src="http://code.jquery.com/jquery.js"></script>
+      <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+

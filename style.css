@@ -1,0 +1,202 @@
+body{
+    padding-top: 50px;
+    color: #929191;
+    background-color: #FAFAFA;
+}
+p>a.btn{
+    background-color: #F56156;
+    border: none;
+    color: white;
+}
+p>a.btn:hover{
+    background-color: #1B1B1B;
+    color: #FCB200;
+}
+.Colorgray{
+    color: #686767;
+}
+.colorRed{
+    color: #E7766B;
+}
+a{
+    text-decoration: none !important;;
+}
+.HoverColor a:hover{
+    color: #FCB200 !important;
+}.Colorblack{
+    color: black;
+}
+/********************************header*******************************************/
+.nav.navbar-nav{
+    width: 100%;
+    padding-left: 20%;
+}
+.nav.navbar-nav>li{
+    width: 15%;
+}
+.navbar .nav.navbar-nav a{
+    font-size: 18px;
+    color: #FCB200;
+}
+.nav.navbar-nav .active>a{
+    color: white;
+}
+/*********************************jumbotron*******************************************/
+.jumbotron i{
+    font-size: 30px;
+}
+.jumbotron p{
+    color: white;
+}
+.jumbotron{
+    background: url(img/indexBG-1.jpg) 50% 0 no-repeat fixed;
+}
+/********************************index4Icons*******************************************/
+.index4Icons{
+    padding: 40px 0;
+}
+.index4Icons>div>div{
+    border: 1px solid #D4D2D2;
+    background-color: white;
+    padding: 40px;
+}
+.index4Icons h3{
+    color: #686767;
+}
+.index4Icons img{
+    background-color: #686767;
+    padding: 20px;
+}
+.index4Icons img:hover{
+    background-color: #E7766B;
+}
+.index4Icons a{
+    color: #777676;
+    font-weight: 700;
+    font-size: 16px;
+}
+.index4Icons a:hover{
+    color: #E7766B;
+}
+/********************************indexBG2*******************************************/
+.indexBG2{
+    background: url(img/indexBG-2.jpg) 50% 0 no-repeat fixed;
+    color: white;
+    padding: 40px 0;
+}
+/**********************************OurServices*****************************************/
+.OurServices{
+    padding: 30px 0;
+}
+.OurServices .Left li{
+    margin-top: 20px;
+    padding-left: 40px;
+    list-style: none;
+    background: url(img/listimgOK.png) no-repeat left center;
+}
+.OurServices ul{
+    padding-left: 0;
+}
+.OurServices a{
+    color: black;
+}
+.OurServices .Midden img{
+    margin: 5px;
+}
+.OurServices .Midden img:hover{
+    opacity: 0.7;
+}
+/********************************footer*******************************************/
+#footer1{
+    background-color: #1B1B1B;
+}
+#footer1 .row>:nth-child(2) a{
+    text-decoration: underline !important;
+}
+#footer1 .row a{
+    color: #929191;
+    line-height: 25px;
+}
+#footer1 p.h3{
+    color: white;
+}
+#footer1 span{
+    padding-right: 10px;
+}
+#footer2{
+    padding: 15px 50px;
+    font-weight: bold;
+}
+#footer2>a{
+    color: #787878;
+}
+/********************************contacts whoweR*******************************************/
+.whoweR{
+    padding: 30px 0;
+}
+.whoweR>div:nth-child(2){
+    margin-top: 55px;
+}
+.whoweR>div:nth-child(2) p{
+    margin-bottom: 20px;
+}
+/********************************contacts Ourteam*******************************************/
+.Ourteam{
+    background: url(img/about/aboutBG-2.jpg) center;
+    color: white;
+    padding: 30px;
+}
+.Ourteam img+p a{
+    color: white;
+}
+/*****************************************contacts chooseUs********************************/
+.chooseUs b{
+    border: 5px solid #E7766B;
+    border-radius: 88px;
+    padding: 15px 20px 15px 25px;
+    font-size: 30px;
+    text-align: center;
+    color: #E7766B;
+}
+.chooseUs .col-xs-3{
+    padding-top: 20px;
+}
+.chooseUs>div>div:hover b{
+    color: white;
+    background-color: #E7766B;
+}
+/************************************************ >992************************************************/
+@media screen and (min-width:992px){
+    .index4Icons .col-sm-3{/********index 4Icons******/
+        width: 23%;
+        margin: 1%;
+    }
+}
+/************************************************ <991************************************************/
+@media screen and (max-width:991px){
+    .whoweR>:first-child{/********contacts Ourteam******/
+        text-align: center;
+    }
+}
+/************************************************ <767************************************************/
+@media screen and (max-width:767px){
+    .Ourteam .row{/********contacts Ourteam******/
+        text-align: center;
+    }
+    .Ourteam img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Services p{/********Services Services******/
+        text-align: center;
+    }
+    .Services img{
+        margin: auto;
+    }
+}
+
+
+
+
+
+
